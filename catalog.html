@@ -2,34 +2,48 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-      <title>Каталог товаров</title>
+    <title>Каталог товаров</title>
   </head>
   <body>
     <header>
       <nav>
         <a href="index.html">
-          <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Логотип интернет - магазина Техномарт">
+          <img src="https://via.placeholder.com/150x100" width="150" height="100" alt="Логотип интернет &mdash; магазина &laquo;Техномарт&raquo;">
         </a>
+        <p>Интернет-магазин<br>
+          строительных материалов<br>
+          и инструментов для ремонта
+        </p>
+        <p>+7 800 555-86-28</p>
+        <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
         <form>
           <p>
             <label for="high-search">Поиск:</label>
-            <input id="high-search" type="search" name="q" placeholder="">
+            <input id="high-search" type="search" name="" placeholder="">
             <input type="submit" value="Найти">
           </p>
         </form>
         <ul>
           <li>Закладки: 0</li>
           <li>Корзина: 10</li>
-          <li><a href="blank.html">Оформить заказ</a></li>
-        </ul>        
-        <p>Равшан Джамшутович</p>
-        <button type="button">Выход</button>
-        <a href="blank.html">Мои заказы</a>
-        <a href="blank.html">Личный кабинет</a>
+          <li>
+            <a href="blank.html">Оформить заказ</a>
+          </li>
+        </ul>
+        <div>
+          <p>+7 800 555-86-28</p>
+          <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+        </div>
+        <ul>
+          <li><p>Равшан Джамшутович</p></li>
+          <li><button type="button">Выход</button></li>
+          <li><a href="blank.html">Мои заказы</a></li>
+          <li><a href="blank.html">Личный кабинет</a></li>
+        </ul>       
         <ul>
           <li><a href="index.html">Главная</a></li>
           <li><a href="blank.html">Компания</a></li>
-          <li><a href="#">Каталог</a></li>
+          <li><a>Каталог</a></li>
           <li><a href="blank.html">Новости</a></li>
           <li><a href="blank.html">Спецпредложения</a></li>
           <li><a href="blank.html">Доставка</a></li>
@@ -37,13 +51,10 @@
         </ul>
         <a href="blank.html">Войти</a> 
         <a href="blank.html">Регистрация</a> 
-        <p>Интернет-магазин строительных материалови инструментов для ремонта</p>
-        <p>+7 800 555-86-28<br>
-            г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
       </nav>
     </header>
     <main>
-      <h1>Перфораторы</h1>
+      <h1>ПЕРФОРАТОРЫ</h1>
       <ul>
         <li>
           <a href="index.html">Главная</a>
@@ -56,14 +67,14 @@
         </li>
       </ul>
       <section>
-        <h2>Фильтр товаров</h2>
+        <h2>ФИЛЬТР:</h2>
         <form id="range" oninput="">
-          <label>Цена:<br><input type="range" name="x" min="0" max="40000" value="30000"></label>
+          <label>Цена:<br><input type="range" name="" min="" max="40000" value=""></label>
         </form>
         <p>0 - 30000</p>
         <form method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
-            <legend>Производители:</legend>
+            <legend>ПРОИЗВОДИТЕЛИ:</legend>
             <ul>
               <li>
                 <input type="checkbox" name="bosch" id="filter-bosch" checked>
@@ -88,7 +99,7 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Питание:</legend>
+            <legend>ПИТАНИЕ:</legend>
             <ul>
               <li>
                 <input type="radio" name="energy-supply" value="battery" id="filter-battery" checked>
@@ -160,9 +171,6 @@
               <a href="blank.html">25500 ₽</a>
             </p>
             <p>
-              NEW
-            </p>
-            <p>
               <button type="button">Купить</button>
               <button type="button">В закладки</button>
              </p>
@@ -180,9 +188,6 @@
             <p>
               <a href="blank.html">15500 Р.</a>
             </p>
-            <p>
-              NEW
-            </p>
           </li>
           <li>
             <a href="blank.html">
@@ -207,9 +212,6 @@
             </a>
             <p>
               <a href="blank.html">12500 Р.</a>
-            </p>
-            <p>
-              NEW
             </p>
           </li>
           <li>
@@ -225,9 +227,6 @@
             <p>
               <a href="blank.html">15500 Р.</a>
             </p>
-            <p>
-              NEW
-            </p>
           </li>
           <li>
             <a href="blank.html">
@@ -252,9 +251,6 @@
             </a>
             <p>
               <a href="blank.html">12500 Р.</a>
-            </p>
-            <p>
-              NEW
             </p>
           </li>
         </ul>
@@ -276,8 +272,8 @@
       <section>
         <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
         <p>
-          Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
-          Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. 
+          Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+          Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка.<br>
           В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
         </p>
       </section>
@@ -341,14 +337,16 @@
             <a href="#">Инстаграм</a>
           </li>
         </ul>
-        <p>
-          Обратная связь:
-          <a href="blank.html">mail@htmlacademy.ru</a>
-        </p>
-        <p>
-          Разработано -
-          <a href="https://htmlacademy.ru">HTML Academy</a>
-        </p>                  
+        <ul>
+          <li>
+            Обратная связь:
+          <p><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a></p>
+          </li>
+          <li>
+            Разработано -
+          <p><a href="https://htmlacademy.ru">HTML Academy</a></p>
+          </li>
+        </ul>                    
       </section>
     </footer>    
   </body>
